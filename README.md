@@ -32,7 +32,7 @@ DVFOK <- read.csv("Exports/DVFOK.csv", stringsAsFactors=FALSE)
 ## 1-Spatialisation des données DVF
 
 
-###Transformer le csv en couche spatiale (objet sf)
+### Transformer le csv en couche spatiale (objet sf)
 
 ```{r cars}
 DVFgeo<- st_as_sf(DVFOK, coords=c("longitude","latitude"), crs=4326)
@@ -65,7 +65,7 @@ st_crs(Communes)
 ```
 
 
-###Fusion des communes pour recuperer les contours des departements
+### Fusion des communes pour recuperer les contours des departements
 
 ```{r cars}
 depBZH <- Communes %>% group_by(INSEE_DEP) %>% summarize()
