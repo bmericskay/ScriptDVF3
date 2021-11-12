@@ -1,10 +1,8 @@
 ---
 title: "Script 3"
 author: "Boris Mericskay et Florent Demoraes"
-date: "07/10/2021"
-output:
-  html_document: default
-  pdf_document: default
+date: "12/11/2021"
+output: html_document
 ---
 
 ---
@@ -789,7 +787,3 @@ labelLayer(Selection_Communes, txt = "NOM_COM", halo = TRUE, bg = "white", r = 0
 ```{r eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
 st_write(CommunesDVFCAH, "Exports/CommunesBZHDVF.gpkg", append=FALSE)
 ```
-
-
-
-
