@@ -3,12 +3,9 @@ title: "Script 3"
 author: "Boris Mericskay et Florent Demoraes"
 date: "12/11/2021"
 output: html_document
----
 
 ---
-
 LES DONNÉES DVF EN CARTES POUR SAISIR LES GRANDES TENDANCES SPATIALES DE L’IMMOBILIER : L’EXEMPLE DE LA BRETAGNE
-
 ---
 
 Ce script présente toutes les étapes de manipulation de la dimension spatiale des données DVF et propose plusieurs formes de représentation cartographique de ces données à une échelle régionale (Bretagne).
